@@ -1,0 +1,16 @@
+class EmployeeService{
+
+    employeeStatus=false;
+
+    getEmployeeStatus(){
+        return this.employeeStatus;
+       // return this.employeeStatus;
+    }
+
+    setEmployeeStatus(value){
+        this.employeeStatus=value;
+    }
+
+}
+
+export default new EmployeeService();
